@@ -1,10 +1,12 @@
 package regex.controller;
 
-public class RegexRunner {
+public class RegexRunner 
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) 
+	{
+		RegexController RegexAppController = new RegexController();
+		RegexAppController.start();
 	}
 
 }
